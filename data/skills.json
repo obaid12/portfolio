@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "NextJS",
+         "level": "Advanced"
+
+        },
+       {
+        "id": 2,
+        "name": "ReactJS",
+        "level": "Intermediate"
+     },
+    {
+         "id": 3,
+        "name": "JavaScript",
+        "level": "Advanced"
+     },
+    {
+        "id": 4,
+        "name": "NodeJS",
+        "level": "Intermediate"
+     },
+    {
+        "id": 5,
+        "name": "NestJS",
+        "level": "Intermediate"
+     },
+    {
+        "id":6,
+        "name": "TypeScript",
+         "level": "Advanced"
+        },
+    {
+        "id":7,
+        "name": "MongoDB",
+        "level": "Intermediate"
+    },
+    {
+        "id":8,
+        "name": "PostgreSQL",
+        "level": "Intermediate"
+    }
+  ]
