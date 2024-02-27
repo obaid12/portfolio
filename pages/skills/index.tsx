@@ -26,9 +26,8 @@ const Skills = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {skills.map((skill: any) => (
                 <div key={skill.id} className="bg-white rounded-lg shadow-md p-4">
-                    <p className="text-lg font-semibold">ID: {skill.id}</p>
-                    <p className="text-gray-600">Name: {skill.name}</p>
-                    <p className="text-gray-600">Level: {skill.level}</p>
+                    <p className="text-gray-600"> {skill.name}</p>
+                    {/* <p className="text-gray-600"> {skill.level}</p> */}
 
 
                 </div>

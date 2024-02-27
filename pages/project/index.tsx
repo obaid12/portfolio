@@ -26,8 +26,8 @@ const Project = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {projects.map((project: any) => (
                 <div key={project.id} className="bg-white rounded-lg shadow-md p-4">
-                    <p className="text-lg font-semibold">ID: {project.id}</p>
-                    <p className="text-gray-600">Name: {project.name}</p>
+                    {/* <p className="text-lg font-semibold">ID: {project.id}</p> */}
+                    <p className="text-gray-600"> {project.name}</p>
                     {/* <img src={project.image} alt={project.name} className="mt-2 rounded-md" /> */}
                 </div>
             ))}

@@ -13,9 +13,9 @@ const SkillsDetails = ({ skills }: any) => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
                     <div key={skills.id} className="bg-white rounded-lg shadow-md p-4">
-                        <p className="text-lg font-semibold">ID: {skills.id}</p>
-                        <p className="text-gray-600">Name: {skills.name}</p>
-                        <p className="text-gray-600">Level: {skills.level}</p>
+                        {/* <p className="text-lg font-semibold">ID: {skills.id}</p> */}
+                        <p className="text-gray-600"> {skills.name}</p>
+                        {/* <p className="text-gray-600">L {skills.level}</p> */}
 
                     </div>
 
