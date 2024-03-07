@@ -1,7 +1,7 @@
 import Title from '@/components/Title';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import { GiSkills } from 'react-icons/gi';
+// import { GiSkills } from 'react-icons/gi';
 
 interface Skill {
     id: number;
@@ -27,7 +27,7 @@ const Skills = () => {
 
     return (
         <div className='wrapper'>
-            <Title text='Skills' icon={<GiSkills />} />
+            <Title text='Skills' icon={undefined} />
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {skills.map((skill) => (
                      <Link key={skill.id} href={`/skills/${skill.id}`}>

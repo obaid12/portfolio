@@ -28,7 +28,7 @@ export default SkillsDetails;
 export const getServerSideProps: GetServerSideProps = async ({ query, res }) => {
     const id = query.sid;
     console.log('id', id);
-    const response = await fetch("http://localhost:3000/api/skills")
+    const response = await fetch("https://portfolio-seven-mauve-86.vercel.app/api/skills")
     const skills = await response.json();
 
     const getSkills = skills.find((skills: { id: string | string[] | undefined; }) => skills.id == id);

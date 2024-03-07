@@ -1,17 +1,14 @@
 import Title from "@/components/Title";
-import React, { useEffect, useState } from "react";
-import { GiSkills } from "react-icons/gi";
+import React from "react";
 import { GetServerSideProps } from "next";
-
 const ProjectDetails = ({ project }: any) => {
   console.log("projects", project);
-
   return (
     <div className="wrapper">
-      <Title text="Projects" icon={<GiSkills />} />
+      <Title text="Projects" icon={undefined} />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div key={project.id} className="bg-white rounded-lg shadow-md p-4">
-          <p className="text-gray-600"> {project.name}</p>
+          <p className="text-gray-600">{project.name}</p>
         </div>
       </div>
     </div>
