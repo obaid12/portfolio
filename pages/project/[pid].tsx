@@ -23,7 +23,7 @@ export const getServerSideProps: GetServerSideProps = async ({
 }) => {
   const id = query.pid;
   console.log("id", id);
-  const response = await fetch("http://localhost:3000/api/projects");
+  const response = await fetch("https://portfolio-seven-mauve-86.vercel.app/api/projects");
   const projects = await response.json();
   // const project = projects.find((project: any) => project.id === 1);
   const getProject = projects.find(
