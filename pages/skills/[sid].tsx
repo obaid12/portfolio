@@ -1,6 +1,5 @@
 import Title from '@/components/Title';
 import React, { useEffect, useState } from 'react';
-import { GiSkills } from 'react-icons/gi';
 import { GetServerSideProps } from 'next';
 
 const SkillsDetails = ({ skills }: any) => {
@@ -8,7 +7,7 @@ const SkillsDetails = ({ skills }: any) => {
 
     return (
         <div className='wrapper'>
-            <Title text='Skills' icon={<GiSkills />} />
+            <Title text='Skills' icon={undefined} />
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
                     <div key={skills.id} className="bg-white rounded-lg shadow-md p-4">
