@@ -7,7 +7,6 @@ const Navbar = () => {
     <header className="bg-white z-50 sticky top-0 w-full">
       <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
         <div className="flex items-center justify-between w-full">
-          {/* Using Option 1: Removing the <a> tag */}
           <Link href={"/"} passHref>
             <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
               {/* <Image
@@ -24,7 +23,7 @@ const Navbar = () => {
             <Link href={"/"} className="mr-5 hover:text-blue-600">
               Home
             </Link>
-            <Link href={"/about"} className="mr-5 hover:text-blue-600">
+            <Link href={"/About"} className="mr-5 hover:text-blue-600">
               About
             </Link>
             <Link href={"/skills"} className="mr-5 hover:text-blue-600">

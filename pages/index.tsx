@@ -1,11 +1,11 @@
 import { Inter } from "next/font/google";
-import Banner from "@/components/Banner";
 import Navbar from "@/components/Navbar";
 import Experience from "@/components/Experience";
 import Skills from "./skills";
-import About from "./about";
+import { FcAbout } from "react-icons/fc";
+import Banner from "@/components/Banner";
+import About from "./About";
 import Project from "./project";
-// import Project from "./project";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <div className='max-w-screen-3xl mx-auto lg:pt-10'>
  <>
  <Navbar/>
- <Banner />
+ <Banner/>
  <About/>
  <Experience />
  <Skills/>
